@@ -549,3 +549,22 @@ Puedes usar la variable `{{base_url}}` en **Postman** para representar la base d
 | `POST`      | `{{base_url}}/books`               | Crea un nuevo libro.                                    |
 | `PUT`       | `{{base_url}}/books/{id}`          | Actualiza un libro existente por su ID.                 |
 | `DELETE`    | `{{base_url}}/books/{id}`          | Elimina un libro existente por su ID.                   |
+
+### Descarga del Archivo de Colección de Postman
+
+Para facilitar las pruebas y validaciones de la API de **Ebook Store Book**, se proporciona un archivo de colección de Postman llamado `ebook-store-api.postman_collection`. Este archivo contiene todos los endpoints necesarios para gestionar las entidades **Category** y **Book**, incluyendo las operaciones CRUD y de paginación.
+
+Puedes descargar el archivo de colección de Postman desde la carpeta `json-postman`:
+
+- [Descargar `ebook-store-api.postman_collection`](json-postman/ebook-store-api.postman_collection.json)
+
+### Instrucciones para Importar la Colección en Postman
+
+1. Abre **Postman** en tu computadora.
+2. Haz clic en el botón **Importar** en la esquina superior izquierda.
+3. Selecciona la opción **Upload Files**.
+4. Navega hasta la carpeta donde guardaste el archivo `ebook-store-api.postman_collection.json` y selecciónalo.
+5. Haz clic en **Open** para importar la colección a Postman.
+6. Una vez importada, verás la colección **Ebook Store API** en la barra lateral de Postman, con todos los endpoints listos para ser utilizados.
+
+Esta colección te permitirá probar y validar fácilmente las funcionalidades de la API 
