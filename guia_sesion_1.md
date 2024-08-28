@@ -43,7 +43,7 @@ En esta sección, configuraremos la base de datos PostgreSQL para almacenar la i
 
 El archivo `application.properties` es fundamental en una aplicación Spring Boot, ya que define varias configuraciones esenciales para el funcionamiento del sistema, incluyendo la conexión a la base de datos y las propiedades de JPA/Hibernate.
 
-Aquí está el contenido del archivo `application.properties` con comentarios explicativos:
+Aquí está el contenido del archivo `application.properties`:
 
 ```properties
 # Nombre de la aplicación y ruta base de los endpoints REST
