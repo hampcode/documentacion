@@ -517,6 +517,35 @@ public class AdminBookController {
     }
 
 }
-
-
 ```
+
+### Postman Requests: Endpoints para las Entidades `Category` y `Book`
+
+A continuación, se presentan los endpoints de **Category** y **Book** para realizar solicitudes HTTP utilizando **Postman** en la aplicación **Ebook Store**. La base de la URL para todas las solicitudes es `http://localhost:8080/api/v1`.
+
+Puedes usar la variable `{{base_url}}` en **Postman** para representar la base de la URL, de esta manera si necesitas cambiar el host o el puerto, solo necesitas actualizar la variable.
+
+#### Request para `Category`
+
+| Método HTTP | Request                          | Descripción                                            |
+|-------------|-----------------------------------|--------------------------------------------------------|
+| `GET`       | `{{base_url}}/categories`          | Obtiene una lista de todas las categorías.              |
+| `GET`       | `{{base_url}}/categories/page`     | Pagina las categorías según los parámetros proporcionados. |
+| `GET`       | `{{base_url}}/categories/{id}`     | Obtiene los detalles de una categoría específica por su ID. |
+| `POST`      | `{{base_url}}/categories`          | Crea una nueva categoría.                               |
+| `PUT`       | `{{base_url}}/categories/{id}`     | Actualiza una categoría existente por su ID.            |
+| `DELETE`    | `{{base_url}}/categories/{id}`     | Elimina una categoría existente por su ID.              |
+
+
+
+#### Request para `Book`
+
+
+| Método HTTP | Request                          | Descripción                                            |
+|-------------|-----------------------------------|--------------------------------------------------------|
+| `GET`       | `{{base_url}}/books`               | Obtiene una lista de todos los libros.                  |
+| `GET`       | `{{base_url}}/books/page`          | Pagina los libros según los parámetros proporcionados.  |
+| `GET`       | `{{base_url}}/books/{id}`          | Obtiene los detalles de un libro específico por su ID.  |
+| `POST`      | `{{base_url}}/books`               | Crea un nuevo libro.                                    |
+| `PUT`       | `{{base_url}}/books/{id}`          | Actualiza un libro existente por su ID.                 |
+| `DELETE`    | `{{base_url}}/books/{id}`          | Elimina un libro existente por su ID.                   |
